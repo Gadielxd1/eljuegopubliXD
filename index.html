@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Note: Killer Within - Landing Page</title>
+    <style>
+        /* Estilos básicos y reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos del cuerpo y fondo general */
+        body {
+            background-color: #1a1a1a;
+            color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-image: url('deathnote_background.jpg'); /* Imagen de fondo atractiva */
+            background-size: cover;
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4em;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 8px #000;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 1.5em;
+        }
+
+        /* Botón del encabezado */
+        .btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #e60000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #c70000;
+        }
+
+        /* Sección de características */
+        .features {
+            padding: 50px;
+            background-color: #222;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #e60000;
+        }
+
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .feature-item {
+            width: 30%;
+            margin: 1em 0;
+            padding: 20px;
+            background: #333;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .feature-item h3 {
+            margin-bottom: 0.5em;
+            color: #e60000;
+        }
+
+        /* Sección de especificaciones */
+        .specs {
+            padding: 50px;
+            background-color: #111;
+        }
+
+        .specs h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #e60000;
+        }
+
+        .specs ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .specs ul li {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background: #222;
+            border-radius: 5px;
+            display: inline-block;
+            color: #f4f4f4;
+        }
+
+        /* Sección de reseñas */
+        .reviews {
+            padding: 50px;
+            background-color: #222;
+            text-align: center;
+        }
+
+        .reviews h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #e60000;
+        }
+
+        .review-item {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 1em;
+            display: inline-block;
+            width: 45%;
+            text-align: left;
+        }
+
+        /* Sección de llamada a la acción */
+        .cta {
+            padding: 50px;
+            background-color: #e60000;
+            text-align: center;
+            color: #fff;
+        }
+
+        .cta h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+
+        .cta p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+        .cta .btn {
+            background-color: #111;
+            color: #e60000;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #111;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Death Note: Killer Within</h1>
+        <p>Un juego oscuro, estratégico y desafiante.</p>
+        <!-- Imagen en el encabezado -->
+        <img src="img/IMG1.jpg" alt="Death Note: Killer Within" style="width: 80%; max-width: 600px; margin-top: 1em;">
+        <button class="btn">Descubre Más</button>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Características Principales</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <!-- Imagen de característica 1 -->
+                <img src="img/IMG2.jpg" alt="Modo Historia" style="width: 100%; border-radius: 5px; margin-bottom: 1em;">
+                <h3>Modo Historia</h3>
+                <p>Explora una historia original inspirada en Death Note, donde cada elección puede cambiar el resultado.</p>
+            </div>
+            <div class="feature-item">
+                <!-- Imagen de característica 2 -->
+                <img src="img/IMG3.webp" alt="Modo Multijugador" style="width: 100%; border-radius: 5px; margin-bottom: 1em;">
+                <h3>Modos Multijugador</h3>
+                <p>Compite con otros jugadores en una experiencia de intriga y estrategia en línea.</p>
+            </div>
+            <div class="feature-item">
+                <!-- Imagen de característica 3 -->
+                <img src="img/IMG4.jpg" alt="Personajes Icónicos" style="width: 100%; border-radius: 5px; margin-bottom: 1em;">
+                <h3>Personajes Icónicos</h3>
+                <p>Juega como personajes clásicos como Light, L, y otros, cada uno con habilidades únicas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section class="specs">
+        <h2>Especificaciones</h2>
+        <img src="img/IMG5.webp" alt="Especificaciones del Juego" style="width: 60%; max-width: 400px; display: block; margin: 0 auto 1em;">
+        <ul>
+            <li>Plataformas: PC, PS5, Xbox Series X</li>
+            <li>Género: Aventura, Estrategia</li>
+            <li>Clasificación: +18</li>
+            <li>Desarrollador: Studio XYZ</li>
+            <li>Modos: Un jugador, Multijugador</li>
+        </ul>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <h2>Reseñas</h2>
+        <div class="review-item">
+            <img src="img/EXTRA.webp" alt="Reseña de IGN" style="width: 100%; border-radius: 5px; margin-bottom: 1em;">
+            <p><strong>IGN:</strong> "Una experiencia inolvidable y profunda que todo fan de Death Note debe probar."</p>
+        </div>
+        <div class="review-item">
+            <img src="img/IMG8.jpg" alt="Reseña de GameSpot" style="width: 100%; border-radius: 5px; margin-bottom: 1em;">
+            <p><strong>GameSpot:</strong> "Intenso, oscuro y lleno de intriga. Un juego que te mantiene al borde de tu asiento."</p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <h2>¡Consigue Death Note: Killer Within Ahora!</h2>
+        <p>Prepárate para un viaje de estrategia y suspenso. ¿Estás listo para enfrentar el poder de la Death Note?</p>
+        <img src="img/IMG7.jpg" alt="Death Note Game" style="width: 80%; max-width: 500px; margin-bottom: 1em;">
+        <button class="btn">Pre-ordenar Ahora</button>
+        <a href="https://www.bandainamcoent.com" target="_blank" class="btn">Visitar Bandai Namco</a>
+        <a href="https://store.steampowered.com" target="_blank" class="btn">Comprar en Steam</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Studio XYZ - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
